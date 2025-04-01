@@ -11,11 +11,13 @@ import OrderPage from "../pages/books/OrderPage";
 import AdminRoute from "./AdminRoute";
 import UserDashboard from "../pages/dashboard/users/UserDashborad";
 import DashboardLayout from "../pages/dashboard/DashboardLayout";
-import Dashboard from "../pages/dashboard/dashboard";
+;
 import AddBook from "../pages/dashboard/addBook/AddBook";
 import AdminLogin from "../components/AdminLogin";
 import UpdateBook from "../pages/dashboard/EditBook/UpdateBook";
 import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks";
+import Dashboard from "../pages/dashboard/Dashboard";
+
 const router = createBrowserRouter([
     {
        path: "/",
